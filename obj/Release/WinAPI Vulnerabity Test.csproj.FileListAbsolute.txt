@@ -1,0 +1,7 @@
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\bin\Release\WinAPI Vulnerabity Test.exe
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\bin\Release\WinAPI Vulnerabity Test.pdb
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\obj\Release\WinAPI Vulnerabity Test.csprojAssemblyReference.cache
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\obj\Release\WinAPI Vulnerabity Test.csproj.CoreCompileInputs.cache
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\obj\Release\WinAPI Vulnerabity Test.exe
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\obj\Release\WinAPI Vulnerabity Test.pdb
+C:\Users\cakea\source\repos\WinAPI Vulnerabity Test\bin\Release\WinAPI Vulnerabity Test.exe.config
