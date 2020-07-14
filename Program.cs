@@ -37,14 +37,16 @@ namespace WinAPI_Vulnerabity_Test
                 if (y == 'Y' || y == 'y')
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
+                    //yeet windows out the window (pun intended)
                     Console.WriteLine("Attempting to kill windows...");
-                    RtlAdjustPrivilege(19, true, false, out bool t1);
-                    NtRaiseHardError(0xc0000022, 0, 0, IntPtr.Zero, 6, out uint oul);
+                    RtlAdjustPrivilege(19, true, false, out bool idk);
+                    NtRaiseHardError(0xc0000022, 0, 0, IntPtr.Zero, 6, out uint output);
                     Console.ForegroundColor = ConsoleColor.Blue;
                 }
                 else if (y != 'Y' || y != 'y')
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
+                    //user is a boring guy and doesnt want to watch windows explode
                     Console.WriteLine("Understandable, have a great day :)");
                     System.Threading.Thread.Sleep(3000);
                     Environment.Exit(0);
