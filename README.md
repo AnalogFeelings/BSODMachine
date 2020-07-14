@@ -1,4 +1,4 @@
-# WinAPI-Vulnerability-Test
+# WinAPI Vulnerability Test
 WinAPI Vulnerability Test is a C# program to BSOD the system.
 
 This takes advantage of an undocumented ntdll method that raises a BSOD with an error code.
