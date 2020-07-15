@@ -23,6 +23,8 @@ namespace WinAPI_Vulnerabity_Test
             out uint Response
         );
 
+        public const uint ASSERT_FAILURE = 0xc0000420;
+
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -40,8 +42,10 @@ namespace WinAPI_Vulnerabity_Test
                     //yeet windows out the window (pun intended)
                     Console.WriteLine("Attempting to kill windows...");
                     RtlAdjustPrivilege(19, true, false, out bool idk);
-                    NtRaiseHardError(0xc0000022, 0, 0, IntPtr.Zero, 6, out uint output);
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    //                 ^^ Shutdown priviledge
+                    NtRaiseHardError(ASSERT_FAILURE, 0, 0, IntPtr.Zero, 6, out uint output);
+                    //                                                  ^ Makes the PC shut down instead
+                    //                                                  of restarting.
                 }
                 else if (y != 'Y' || y != 'y')
                 {
