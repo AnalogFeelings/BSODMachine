@@ -5,4 +5,4 @@ This takes advantage of an undocumented NT API method that raises a BSOD with an
 
 This does NOT require administrator permissions to BSOD the system, this function has existed since atleast Windows XP (AFAIK).
 
-# ***I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE BY THE MISUSE OF THIS PROGRAM. (If you can even cause them)***
+# ***I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE BY THE MISUSE OF THIS PROGRAM.***
