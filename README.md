@@ -3,6 +3,8 @@ NT API BSOD Machine is a C# program to BSOD the system. This takes advantage of 
 
 This does NOT require administrator permissions to BSOD the system, this function has existed since atleast Windows XP (AFAIK).
 
+do not question what I do when bored
+
 ***
 
 -`RtlAdjustPriviledge(int Priviledge, bool EnablePriviledge, bool IsThreadPriviledge, out bool PreviousVal)` - Changes the priviledge in the current process or thread.
