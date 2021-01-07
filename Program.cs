@@ -28,7 +28,7 @@ namespace WinAPI_Vulnerabity_Test
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("WELCOME TO THE WINDOWS API VULNERABILITY TEST");
+            Console.WriteLine("WELCOME TO THE NT API BSOD TEST");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Do you want me to kill windows? [Y]es - [N]o:");
             Console.ForegroundColor = ConsoleColor.White;
