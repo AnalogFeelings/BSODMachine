@@ -11,4 +11,4 @@ do not question what I do when bored
 
 -`NtRaiseHardError(uint ErrorStatus, uint NumOfParams, uint UnicodeStrParamMask, IntPtr Params, uint ValidResponseOption, out uint Response)` - Sends a HARDERROR_MSG LPC message to CSRSS.exe. Using the error status `0xC0000420` causes it to trigger a BSOD with STATUS_ASSERTION_FAILURE.
 
-# ***I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE BY THE MISUSE OF THIS PROGRAM.***
+### ***I AM NOT RESPONSIBLE FOR ANY DAMAGES DONE BY THE MISUSE OF THIS PROGRAM.***
